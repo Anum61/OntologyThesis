@@ -1,0 +1,2526 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.pharmaceutical.org"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.pharmaceutical.org">
+    <Prefix name="" IRI="http://www.semanticweb.org/usama/ontologies/2025/2/untitled-ontology-12#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="schema" IRI="https://schema.org/"/>
+    <Prefix name="untitled-ontology-12" IRI="http://www.semanticweb.org/usama/ontologies/2025/2/untitled-ontology-12#"/>
+    <Declaration>
+        <Class IRI="http://example.org/Disease_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://schema.org/Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ActiveIngredient"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Analgesics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antibiotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Antivirals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BrandName"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capsule"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Contraindication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Controlled_Substance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_And_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Disease_Condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DosageForm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrugCategory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Drug_Interaction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Essential_Medicines_List"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HalfLife"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LegalClassification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mechanism_Of_Action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Over-the-Counter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Prescription"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recommended_Dosage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulatory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Regulatory_Approval_Status"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SideEffect"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Storage_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Treatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Usage_And_Administration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#approved"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pending"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rejected"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Contraindication"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Dosage_Form"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Generic_Name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Half_Life"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#includes_Drug"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#interacts_With"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isClassificationOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#treats_Condition"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#active_Ingredient"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#brand_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#contraindication"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#dosage_Form"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#emlTherapeuticCategory"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#generic_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#half_Life"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Treatment"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#interacts_With"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is_In_Essential_Medicines_List"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#legal_Classification"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#mechanism_Of_Action"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#recommended_Dosage"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#regulatory_Approval_Status"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#side_Effect"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#storage_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#treats_Condition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Active_gastrointestinal_bleeding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Active_liver_disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Advil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albuterol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albuterol_Inhalation_Solution"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Allergic_Rhinitis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin_Approved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin_EML_Entry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin_Standard_Dosage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin_Storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analgesics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Angiotensin-converting_enzyme_inhibition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anti-inflammatory_effects_via_glucocorticoid_receptor_activation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antibiotics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antidepressant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Antihistamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aspirin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Asthma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin_Approved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin_HalfLife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin_Rx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Atorvastatin_Standard_Dosage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benralizumab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Benralizumab_Pending"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beta-2_adrenergic_receptor_agonism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Beta-blockers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Blockade_of_beta-adrenergic_receptors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bronchodilator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bronchodilators"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Budesonide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Carbamazepine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Celecoxib"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cephalexin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cetirizine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cetirizine_OTC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ciprofloxacin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clavulanic_Acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corticosteroids"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cough"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deltasone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Depression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diabetes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diclofenac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diclofenac_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diclofenac_Sodium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diuretics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dizziness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drowsiness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Duloxetine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Epilepsy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esketamine_nasal_spray"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Experimental_Drug_X_Rejected"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fatigue"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fentanyl"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fentanyl_CS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fluoxetine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Formoterol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gabapentin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gastrointestinal_bleeding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Glucosamine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Heart_Failure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Histamine_H1_receptor_blockade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Humulin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hyperlipidemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypersensitivity_to_active_ingredient"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypersensitivity_to_insulin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypertension"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hypoglycemia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IV_Diazepam"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IV_Diuretics"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen_Capsule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen_HalfLife"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ibuprofen_OTC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Immunotherapy_shots"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Increased_risk_of_infection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inhibition_of_HMG-CoA_reductase"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Inhibition_of_cyclooxygenase_enzyme"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin_EML_Entry"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin_Injection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin_Storage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin_injections"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Insulin_receptor_agonist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ketorolac"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lamictal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lamotrigine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lipitor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lisinopril"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lisinopril_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lopressor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Loratadine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Meropenem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Metoprolol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Modulation_of_neurotransmitter_activity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Monoamine_oxidase_inhibitor_use"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Montelukast"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morphine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Morphine_CS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Muscle_pain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Narrow_angle_glaucoma"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Omalizumab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Omega-3_fatty_acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Osteoarthritis"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PCSK9_inhibitors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Paracetamol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prednisone"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Prednisone_Capsule"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pregabalin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pregabalin_"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pregnancy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proventil"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rifampicin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rosuvastatin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serotonin_reuptake_inhibition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sertraline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sertraline_Rx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sertraline_Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe_bradycardia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severe_heart_disease"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Statins"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Systemic_fungal_infections"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tiotropium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tramadol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tremors"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Weight_gain"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zestril"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zoloft"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Zyrtec"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Albuterol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Amoxicillin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Azithromycin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#_Benralizumab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#approved"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#insulin_analogs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#panadol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amoxicillin_+_Clavulanic_Acid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#approvalDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#authority"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#dosageAmount"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#frequency"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#halfLifeUnit"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#halfLifeValue"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#publicationDate"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#rejectionReason"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#storageCondition"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#ActiveIngredient"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Analgesics"/>
+        <Class IRI="#DrugCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antibiotics"/>
+        <Class IRI="#DrugCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Antivirals"/>
+        <Class IRI="#DrugCategory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BrandName"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capsule"/>
+        <Class IRI="#DosageForm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Contraindication"/>
+        <Class IRI="#Drug_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Controlled_Substance"/>
+        <Class IRI="#LegalClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Disease_Condition"/>
+        <Class IRI="#Disease_And_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DosageForm"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrugCategory"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Essential_Medicines_List"/>
+        <Class IRI="#Regulatory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HalfLife"/>
+        <Class IRI="#Usage_And_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Injection"/>
+        <Class IRI="#DosageForm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LegalClassification"/>
+        <Class IRI="#Regulatory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <Class IRI="#Drug_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Over-the-Counter"/>
+        <Class IRI="#LegalClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Prescription"/>
+        <Class IRI="#LegalClassification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recommended_Dosage"/>
+        <Class IRI="#Usage_And_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Regulatory_Approval_Status"/>
+        <Class IRI="#Regulatory"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SideEffect"/>
+        <Class IRI="#Drug_Interaction"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Storage_Requirement"/>
+        <Class IRI="#Usage_And_Administration"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#DosageForm"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Treatment"/>
+        <Class IRI="#Disease_And_Treatment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#approved"/>
+        <Class IRI="#Regulatory_Approval_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pending"/>
+        <Class IRI="#Regulatory_Approval_Status"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rejected"/>
+        <Class IRI="#Regulatory_Approval_Status"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://example.org/Disease_Condition"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Active_gastrointestinal_bleeding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Active_liver_disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Advil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Albuterol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Albuterol_Inhalation_Solution"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Allergic_Rhinitis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommended_Dosage"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#approved"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#approved"/>
+        <NamedIndividual IRI="#Amoxicillin_Approved"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Amoxicillin_EML_Entry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommended_Dosage"/>
+        <NamedIndividual IRI="#Amoxicillin_Standard_Dosage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storage_Requirement"/>
+        <NamedIndividual IRI="#Amoxicillin_Storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Angiotensin-converting_enzyme_inhibition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Anti-inflammatory_effects_via_glucocorticoid_receptor_activation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Aspirin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Asthma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prescription"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#approved"/>
+        <NamedIndividual IRI="#Atorvastatin_Approved"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HalfLife"/>
+        <NamedIndividual IRI="#Atorvastatin_HalfLife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prescription"/>
+        <NamedIndividual IRI="#Atorvastatin_Rx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Recommended_Dosage"/>
+        <NamedIndividual IRI="#Atorvastatin_Standard_Dosage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Azithromycin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Benralizumab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pending"/>
+        <NamedIndividual IRI="#Benralizumab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pending"/>
+        <NamedIndividual IRI="#Benralizumab_Pending"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Beta-2_adrenergic_receptor_agonism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Beta-blockers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Blockade_of_beta-adrenergic_receptors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Bronchodilators"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Budesonide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Carbamazepine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Ceftriaxone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Celecoxib"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Cephalexin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Cetirizine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Over-the-Counter"/>
+        <NamedIndividual IRI="#Cetirizine_OTC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Ciprofloxacin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Cough"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Deltasone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Depression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Diabetes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Diclofenac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Diclofenac_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Diclofenac_Sodium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Diuretics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Dizziness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Doxycycline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Drowsiness"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Duloxetine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Epilepsy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Esketamine_nasal_spray"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#rejected"/>
+        <NamedIndividual IRI="#Experimental_Drug_X_Rejected"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Fatigue"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Fentanyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlled_Substance"/>
+        <NamedIndividual IRI="#Fentanyl"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlled_Substance"/>
+        <NamedIndividual IRI="#Fentanyl_CS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Fluoxetine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Formoterol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Gabapentin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Gastrointestinal_bleeding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Glucosamine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Heart_Failure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Histamine_H1_receptor_blockade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Humulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Hyperlipidemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Hypersensitivity_to_active_ingredient"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Hypersensitivity_to_insulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Hypertension"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Hypoglycemia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#IV_Diazepam"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#IV_Diuretics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HalfLife"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Over-the-Counter"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Ibuprofen_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Ibuprofen_Capsule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HalfLife"/>
+        <NamedIndividual IRI="#Ibuprofen_HalfLife"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Over-the-Counter"/>
+        <NamedIndividual IRI="#Ibuprofen_OTC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Immunotherapy_shots"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Increased_risk_of_infection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Inhibition_of_HMG-CoA_reductase"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Inhibition_of_cyclooxygenase_enzyme"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storage_Requirement"/>
+        <NamedIndividual IRI="#Insulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Insulin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Insulin_EML_Entry"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Insulin_Injection"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Storage_Requirement"/>
+        <NamedIndividual IRI="#Insulin_Storage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Insulin_injections"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Insulin_receptor_agonist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Ketorolac"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Lamictal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Lamotrigine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Lipitor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Lisinopril"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Lisinopril_Tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Lopressor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Loratadine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Meropenem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Metoprolol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Modulation_of_neurotransmitter_activity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Monoamine_oxidase_inhibitor_use"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Montelukast"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Morphine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Controlled_Substance"/>
+        <NamedIndividual IRI="#Morphine_CS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Muscle_pain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Narrow_angle_glaucoma"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#Omalizumab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Omega-3_fatty_acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Osteoarthritis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Injection"/>
+        <NamedIndividual IRI="#PCSK9_inhibitors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Paracetamol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Prednisone"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Prednisone_Capsule"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Pregabalin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Pregabalin_"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Pregnancy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Proventil"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Rifampicin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Rosuvastatin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Serotonin_reuptake_inhibition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#Sertraline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Prescription"/>
+        <NamedIndividual IRI="#Sertraline_Rx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Tablet"/>
+        <NamedIndividual IRI="#Sertraline_Tablet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Severe_bradycardia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Severe_heart_disease"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Treatment"/>
+        <NamedIndividual IRI="#Statins"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Contraindication"/>
+        <NamedIndividual IRI="#Systemic_fungal_infections"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Capsule"/>
+        <NamedIndividual IRI="#Tiotropium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#Tramadol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Tremors"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Essential_Medicines_List"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SideEffect"/>
+        <NamedIndividual IRI="#Weight_gain"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Zestril"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Zoloft"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BrandName"/>
+        <NamedIndividual IRI="#Zyrtec"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ActiveIngredient"/>
+        <NamedIndividual IRI="#insulin_analogs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Analgesics"/>
+        <NamedIndividual IRI="#panadol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#Amoxicillin_+_Clavulanic_Acid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Disease_Condition"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+        <NamedIndividual IRI="#Lisinopril"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+        <NamedIndividual IRI="#Zestril"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+        <NamedIndividual IRI="#Pregnancy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+        <NamedIndividual IRI="#Angiotensin-converting_enzyme_inhibition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+        <NamedIndividual IRI="#Cough"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Allergic_Rhinitis"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+        <NamedIndividual IRI="#Amoxicillin_Standard_Dosage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+        <NamedIndividual IRI="#Amoxicillin_Approved"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+        <NamedIndividual IRI="#Amoxicillin_EML_Entry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Amoxicillin_Approved"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Amoxicillin_EML_Entry"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+        <NamedIndividual IRI="#Amoxicillin_Standard_Dosage"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+        <NamedIndividual IRI="#Amoxicillin_Storage"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Analgesics"/>
+        <NamedIndividual IRI="#approved"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Antibiotics"/>
+        <NamedIndividual IRI="#approved"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+        <NamedIndividual IRI="#Lamotrigine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+        <NamedIndividual IRI="#Lamictal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+        <NamedIndividual IRI="#Hypersensitivity_to_active_ingredient"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+        <NamedIndividual IRI="#Modulation_of_neurotransmitter_activity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+        <NamedIndividual IRI="#Dizziness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+        <NamedIndividual IRI="#Sertraline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+        <NamedIndividual IRI="#Zoloft"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+        <NamedIndividual IRI="#Monoamine_oxidase_inhibitor_use"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+        <NamedIndividual IRI="#Serotonin_reuptake_inhibition"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+        <NamedIndividual IRI="#Weight_gain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+        <NamedIndividual IRI="#Cetirizine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+        <NamedIndividual IRI="#Zyrtec"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+        <NamedIndividual IRI="#Narrow_angle_glaucoma"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+        <NamedIndividual IRI="#Histamine_H1_receptor_blockade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Antihistamine"/>
+        <NamedIndividual IRI="#Drowsiness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Asthma"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+        <NamedIndividual IRI="#Atorvastatin_Rx"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Atorvastatin_Approved"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Half_Life"/>
+        <NamedIndividual IRI="#Atorvastatin_HalfLife"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Atorvastatin_Rx"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isClassificationOf"/>
+        <NamedIndividual IRI="#Atorvastatin_Rx"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+        <NamedIndividual IRI="#Atorvastatin_Standard_Dosage"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Benralizumab"/>
+        <NamedIndividual IRI="#Benralizumab_Pending"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <NamedIndividual IRI="#Benralizumab_Pending"/>
+        <NamedIndividual IRI="#Benralizumab"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+        <NamedIndividual IRI="#Metoprolol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+        <NamedIndividual IRI="#Lopressor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+        <NamedIndividual IRI="#Severe_bradycardia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+        <NamedIndividual IRI="#Blockade_of_beta-adrenergic_receptors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+        <NamedIndividual IRI="#Fatigue"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+        <NamedIndividual IRI="#Albuterol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+        <NamedIndividual IRI="#Proventil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+        <NamedIndividual IRI="#Severe_heart_disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+        <NamedIndividual IRI="#Beta-2_adrenergic_receptor_agonism"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Bronchodilator"/>
+        <NamedIndividual IRI="#Tremors"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Cetirizine_OTC"/>
+        <NamedIndividual IRI="#Cetirizine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+        <NamedIndividual IRI="#Prednisone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+        <NamedIndividual IRI="#Deltasone"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+        <NamedIndividual IRI="#Systemic_fungal_infections"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+        <NamedIndividual IRI="#Anti-inflammatory_effects_via_glucocorticoid_receptor_activation"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+        <NamedIndividual IRI="#Increased_risk_of_infection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Depression"/>
+        <NamedIndividual IRI="#Antidepressant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Diabetes"/>
+        <NamedIndividual IRI="#Insulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Epilepsy"/>
+        <NamedIndividual IRI="#Anticonvulsants"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Fentanyl"/>
+        <NamedIndividual IRI="#Fentanyl_CS"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Fentanyl_CS"/>
+        <NamedIndividual IRI="#Fentanyl"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Heart_Failure"/>
+        <NamedIndividual IRI="#Beta-Blockers"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Hyperlipidemia"/>
+        <NamedIndividual IRI="#Statins"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Hypertension"/>
+        <NamedIndividual IRI="#ACE_Inhibitor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Half_Life"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+        <NamedIndividual IRI="#Ibuprofen_HalfLife"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+        <NamedIndividual IRI="#Ibuprofen_OTC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Half_Life"/>
+        <NamedIndividual IRI="#Ibuprofen_HalfLife"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Ibuprofen_OTC"/>
+        <NamedIndividual IRI="#Ibuprofen"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Humulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Hypersensitivity_to_insulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Insulin_receptor_agonist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Hypoglycemia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Insulin_Storage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#Insulin_EML_Entry"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <NamedIndividual IRI="#Insulin_EML_Entry"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+        <NamedIndividual IRI="#Insulin_Storage"/>
+        <NamedIndividual IRI="#Insulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Morphine_CS"/>
+        <NamedIndividual IRI="#Morphine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+        <NamedIndividual IRI="#Ibuprofen_"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+        <NamedIndividual IRI="#Advil"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+        <NamedIndividual IRI="#Active_gastrointestinal_bleeding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+        <NamedIndividual IRI="#Inhibition_of_cyclooxygenase_enzyme"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+        <NamedIndividual IRI="#Gastrointestinal_bleeding"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Osteoarthritis"/>
+        <NamedIndividual IRI="#Non-Steroidal_Anti-Inflammatory_Drug"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <NamedIndividual IRI="#Sertraline_Rx"/>
+        <NamedIndividual IRI="#Sertraline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Atorvastatin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Metoprolol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Lipitor"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Active_liver_disease"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Inhibition_of_HMG-CoA_reductase"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <NamedIndividual IRI="#Statins"/>
+        <NamedIndividual IRI="#Muscle_pain"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Dosage_Form"/>
+        <NamedIndividual IRI="#Tablet"/>
+        <NamedIndividual IRI="#Tablet"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes_Drug"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#includes_Drug"/>
+        <NamedIndividual IRI="#WHO_EML_2023"/>
+        <NamedIndividual IRI="#Insulin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <NamedIndividual IRI="#Corticosteroids"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contraindication"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Beta-blockers may worsen symptoms in some cases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Albuterol inhaler, corticosteroids, oxygen therapy, pulmonary rehab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#legal_Classification"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>N/A (applies to drugs)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#recommended_Dosage"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Varies depending on severity and prescribed medications</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#regulatory_Approval_Status"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>N/A (applies to drugs, not diseases)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#side_Effect"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Difficulty breathing, fatigue, frequent respiratory infections</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#storage_Requirement"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>N/A for disease; refer to prescribed medication storage</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#treats_Condition"/>
+        <NamedIndividual IRI="http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Not applicable (this is the condition)</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Allergic_Rhinitis"/>
+        <Literal>Antihistamines, nasal corticosteroids, allergen avoidance, immunotherapy shots</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#emlTherapeuticCategory"/>
+        <NamedIndividual IRI="#Amoxicillin"/>
+        <Literal>Antibacterials</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#emlTherapeuticCategory"/>
+        <NamedIndividual IRI="#Insulin"/>
+        <Literal>Antidiabetics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#contraindication"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Beta-blockers may worsen symptoms in some cases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_Treatment"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Albuterol inhaler, corticosteroids, oxygen therapy, pulmonary rehab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#recommended_Dosage"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Varies depending on severity and prescribed medications</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#side_Effect"/>
+        <NamedIndividual IRI="#Chronic_Obstructive_Pulmonary_Disease_(COPD)"/>
+        <Literal>Difficulty breathing, fatigue, frequent respiratory infections</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <ObjectProperty IRI="#isClassificationOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#includes_Drug"/>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Dosage_Form"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Generic_Name"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Half_Life"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <Class IRI="#Disease_Condition"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#includes_Drug"/>
+        <Class IRI="#Essential_Medicines_List"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isClassificationOf"/>
+        <Class IRI="#LegalClassification"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#treats_Condition"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Active_Ingredient"/>
+        <Class IRI="#ActiveIngredient"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Brand_Name"/>
+        <Class IRI="#BrandName"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Contraindication"/>
+        <Class IRI="#Contraindication"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Dosage_Form"/>
+        <Class IRI="#DosageForm"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Half_Life"/>
+        <Class IRI="#HalfLife"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Legal_Classification"/>
+        <Class IRI="#LegalClassification"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Mechanism_Of_Action"/>
+        <Class IRI="#Mechanism_Of_Action"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Recommended_Dosage"/>
+        <Class IRI="#Recommended_Dosage"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Regulatory_Approval_Status"/>
+        <Class IRI="#Regulatory_Approval_Status"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Side_Effect"/>
+        <Class IRI="#SideEffect"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Storage_Requirement"/>
+        <Class IRI="#Storage_Requirement"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_Treatment"/>
+        <Class IRI="#Treatment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#includes_Drug"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#interacts_With"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isClassificationOf"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_In_Essential_Medicines_List"/>
+        <Class IRI="#Essential_Medicines_List"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#treats_Condition"/>
+        <Class IRI="#Disease_Condition"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#active_Ingredient"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#brand_Name"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#contraindication"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#dosage_Form"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#emlTherapeuticCategory"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#generic_Name"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#half_Life"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#legal_Classification"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#mechanism_Of_Action"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#recommended_Dosage"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#regulatory_Approval_Status"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#side_Effect"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#storage_Requirement"/>
+        <Class IRI="#Pharmaceutical_Drug"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#active_Ingredient"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#brand_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#contraindication"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#dosage_Form"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#emlTherapeuticCategory"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#generic_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#half_Life"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Treatment"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#interacts_With"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is_In_Essential_Medicines_List"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#legal_Classification"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#mechanism_Of_Action"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#recommended_Dosage"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#regulatory_Approval_Status"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#side_Effect"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#storage_Requirement"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#treats_Condition"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)</IRI>
+        <Literal>
+    A chronic inflammatory lung disease that causes obstructed airflow from the lungs. Common symptoms include breathing difficulty, cough, mucus (sputum) production, and wheezing.
+  </Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://example.org/Chronic_Obstructive_Pulmonary_Disease_(COPD)</IRI>
+        <Literal>Chronic Obstructive Pulmonary Disease (COPD)</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#approvalDate"/>
+        <IRI>#Amoxicillin_Approved</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">1972-01-01</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Amoxicillin_EML_Entry</IRI>
+        <Literal>Amoxicillin is included in the WHO Model List of Essential Medicines</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#dosageAmount"/>
+        <IRI>#Amoxicillin_Standard_Dosage</IRI>
+        <Literal>250-500mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#frequency"/>
+        <IRI>#Amoxicillin_Standard_Dosage</IRI>
+        <Literal>every 8 hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#storageCondition"/>
+        <IRI>#Amoxicillin_Storage</IRI>
+        <Literal>Room temperature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#halfLifeValue"/>
+        <IRI>#Atorvastatin_HalfLife</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">14.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#dosageAmount"/>
+        <IRI>#Atorvastatin_Standard_Dosage</IRI>
+        <Literal>10-80mg</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#frequency"/>
+        <IRI>#Atorvastatin_Standard_Dosage</IRI>
+        <Literal>once daily</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#rejectionReason"/>
+        <IRI>#Experimental_Drug_X_Rejected</IRI>
+        <Literal>Safety concerns in Phase III trials</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Fentanyl_CS</IRI>
+        <Literal>Schedule II controlled substance in most jurisdictions</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#halfLifeUnit"/>
+        <IRI>#Ibuprofen_HalfLife</IRI>
+        <Literal>hours</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#halfLifeValue"/>
+        <IRI>#Ibuprofen_HalfLife</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#float">2.0</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Insulin</IRI>
+        <Literal>:Insulin a :Pharmaceutical_Drug ;
+  rdfs:label &quot;Insulin&quot; ;
+  :generic_Name &quot;Insulin&quot; ;
+  :brand_Name &quot;Humulin, Novolin, Lantus, Levemir, etc.&quot; ;
+  :active_Ingredient &quot;Insulin&quot; ;
+  :dosage_Form &quot;Injection&quot; ;
+  :mechanism_Of_Action &quot;Insulin receptor agonist; facilitates cellular glucose uptake&quot; ;
+  :contraindication &quot;Hypoglycemia, hypersensitivity to insulin&quot; ;
+  :side_Effect &quot;Hypoglycemia, weight gain, injection site reactions&quot; ;
+  :recommended_Dosage &quot;Individualized based on blood glucose monitoring&quot; ;
+  :half_Life &quot;Varies by insulin type (short-acting, long-acting)&quot; ;
+  :storage_Requirement &quot;Refrigerate between 2°C–8°C; do not freeze&quot; ;
+  :legal_Classification &quot;Prescription&quot; ;
+  :regulatory_Approval_Status &quot;approved&quot; ;
+  :&apos;EML therapeutic category&apos; &quot;Insulin and other medicines used for diabetes&quot; ;
+  :&apos;is in essential medicines list&apos; &quot;true&quot; .</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#storageCondition"/>
+        <IRI>#Insulin_Storage</IRI>
+        <Literal>Refrigerate at 2-8°C</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#authority"/>
+        <IRI>#WHO_EML_2023</IRI>
+        <IRI>http://www.who.int</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#publicationDate"/>
+        <IRI>#WHO_EML_2023</IRI>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2023-07-24</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#version"/>
+        <IRI>#WHO_EML_2023</IRI>
+        <Literal>23.1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#WHO_EML_2023</IRI>
+        <Literal>The 23rd edition of the WHO Model List of Essential Medicines published in 2023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#WHO_EML_2023</IRI>
+        <Literal>WHO Essential Medicines List 2023</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#active_Ingredient</IRI>
+        <Literal xml:lang="en">The active substance in a pharmaceutical drug that is responsible for its therapeutic effect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#brand_Name</IRI>
+        <Literal xml:lang="en">The proprietary name under which a pharmaceutical drug is marketed, often used for branding purposes.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#contraindication</IRI>
+        <Literal xml:lang="en">Specific conditions or factors that indicate the drug should not be used due to potential harm to the patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#dosage_Form</IRI>
+        <Literal xml:lang="en">The physical form in which a pharmaceutical drug is produced and administered, such as tablet, capsule, or injection.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#emlTherapeuticCategory</IRI>
+        <Literal>EML therapeutic category</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#generic_Name</IRI>
+        <Literal xml:lang="en">The official non-proprietary name of a pharmaceutical drug, recognized by health authorities and used universally.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#half_Life</IRI>
+        <Literal xml:lang="en">The time required for the concentration of the drug in the bloodstream to reduce to half its initial value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Active_Ingredient</IRI>
+        <Literal>Links a pharmaceutical drug to its active ingredient, which is the substance responsible for its therapeutic effect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Brand_Name</IRI>
+        <Literal>Indicates the commercial name under which a pharmaceutical drug is marketed.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Contraindication</IRI>
+        <Literal>Identifies specific conditions or factors that serve as reasons to withhold a certain medical treatment due to the harm it could cause the patient.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Dosage_Form</IRI>
+        <Literal>Specifies the form in which a pharmaceutical drug is administered, such as tablet, capsule, or injection</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Generic_Name</IRI>
+        <Literal>Represents the official non-proprietary name of a pharmaceutical drug, as recognized by health authorities.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Half_Life</IRI>
+        <Literal xml:lang="en">Represents the time it takes for the concentration of the drug in the bloodstream to reduce to half its initial value.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Legal_Classification</IRI>
+        <Literal xml:lang="en">Specifies the legal classification of the pharmaceutical drug, which may determine its availability and prescription requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Mechanism_Of_Action</IRI>
+        <Literal>Describes the biochemical process through which a pharmaceutical drug exerts its therapeutic effect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Recommended_Dosage</IRI>
+        <Literal>Specifies the dosage of the pharmaceutical drug that is recommended for effective treatment, including frequency and amount.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Regulatory_Approval_Status</IRI>
+        <Literal xml:lang="en">Indicates the current status of regulatory approval for the pharmaceutical drug, such as approved, pending, or rejected.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Side_Effect</IRI>
+        <Literal>Describes any unintended or adverse effects that may occur as a result of taking the pharmaceutical drug.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Storage_Requirement</IRI>
+        <Literal>Indicates the conditions under which a pharmaceutical drug should be stored to maintain its efficacy and safety.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#has_Treatment</IRI>
+        <Literal xml:lang="en">Describes the treatment regimen or protocol associated with a specific disease condition.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#interacts_With</IRI>
+        <Literal>Indicates other pharmaceutical drugs that may interact with the current drug, potentially affecting its efficacy or safety.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_In_Essential_Medicines_List</IRI>
+        <Literal>Connects a drug to its inclusion in specific Essential Medicines Lists</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#is_In_Essential_Medicines_List</IRI>
+        <Literal xml:lang="en">Indicates whether the pharmaceutical drug is included in the World Health Organization&apos;s Essential Medicines List, which identifies the most effective and safe medicines needed in a health system.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#is_In_Essential_Medicines_List</IRI>
+        <Literal>is in essential medicines list</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#legal_Classification</IRI>
+        <Literal xml:lang="en">The legal classification of the pharmaceutical drug, which may determine its availability and prescription requirements.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#mechanism_Of_Action</IRI>
+        <Literal xml:lang="en">The biochemical process through which a pharmaceutical drug exerts its therapeutic effect.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#recommended_Dosage</IRI>
+        <Literal xml:lang="en">The dosage of the pharmaceutical drug that is recommended for effective treatment, including frequency and amount.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#regulatory_Approval_Status</IRI>
+        <Literal xml:lang="en">The current status of regulatory approval for the pharmaceutical drug, such as approved, pending, or rejected.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#side_Effect</IRI>
+        <Literal xml:lang="en">Any unintended or adverse effects that may occur as a result of taking the pharmaceutical drug.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#storage_Requirement</IRI>
+        <Literal xml:lang="en">Conditions under which a pharmaceutical drug should be stored to maintain its efficacy and safety.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#treats_Condition</IRI>
+        <Literal xml:lang="en">The specific disease or condition that the pharmaceutical drug is intended to treat.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
